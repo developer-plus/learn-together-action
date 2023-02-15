@@ -2,12 +2,13 @@ const core = require('@actions/core')
 const github = require('@actions/github')
 const dayjs = require('dayjs')
 
-(function main() {
+function main() {
   const token = core.getInput('token')
   const octokit = github.getOctokit(token)
 
   createIssue(octokit)
-})();
+}
+main()
 
 function createIssue(octokit) {
   octokit.rest.issues.create({
