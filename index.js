@@ -7,7 +7,7 @@ const dayjs = require('dayjs')
   const octokit = github.getOctokit(token)
 
   createIssue(octokit)
-})()
+})();
 
 function createIssue(octokit) {
   octokit.rest.issues.create({

@@ -9790,7 +9790,7 @@ const dayjs = __nccwpck_require__(184)
   const octokit = github.getOctokit(token)
 
   createIssue(octokit)
-})()
+})();
 
 function createIssue(octokit) {
   octokit.rest.issues.create({
