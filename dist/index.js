@@ -9785,12 +9785,13 @@ const core = __nccwpck_require__(7733)
 const github = __nccwpck_require__(3695)
 const dayjs = __nccwpck_require__(184)
 
-(function main() {
+function main() {
   const token = core.getInput('token')
   const octokit = github.getOctokit(token)
 
   createIssue(octokit)
-})();
+}
+main()
 
 function createIssue(octokit) {
   octokit.rest.issues.create({
