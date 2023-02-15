@@ -1,0 +1,9 @@
+name: "Create Issue"
+description: "Automatic create learn together issue for developer-plus/learn-together."
+inputs:
+  token: 
+    description: "github token"
+    required: true
+runs:
+  using: "node12"
+  main: "dist/index.js"
