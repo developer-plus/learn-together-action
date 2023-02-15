@@ -7,7 +7,7 @@ function getBody() {
 }
 
 function getTitle() {
-  return '【一起学习】' + getDate()
+  return '【一起进步】' + getDate()
 }
 
 function getDate() {
