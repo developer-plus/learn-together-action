@@ -3,7 +3,7 @@ const github = require('@actions/github')
 const dayjs = require('dayjs')
 
 function getBody() {
-  return ''
+  return '每天进步一点点，成长足迹看得见。'
 }
 
 function getTitle() {

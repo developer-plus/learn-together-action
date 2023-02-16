@@ -9786,7 +9786,7 @@ const github = __nccwpck_require__(3695)
 const dayjs = __nccwpck_require__(184)
 
 function getBody() {
-  return ''
+  return '每天进步一点点，成长足迹看得见。'
 }
 
 function getTitle() {
